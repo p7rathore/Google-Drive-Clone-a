@@ -1,0 +1,198 @@
+.data-component {
+  width: 1220px;
+  height: 650px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 3px rgb(223, 223, 223);
+}
+.my-drive_icons_nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(222, 222, 222); */
+}
+.my-drive-opstion {
+  width: 150px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  /* background-color: aqua; */
+  cursor: pointer;
+}
+.my-drive-opstion:hover {
+  background-color: rgb(222, 222, 222);
+}
+.my-d-name {
+  font-size: 23px;
+  margin-top: 3px;
+}
+.ri-arrow-down-s-fill {
+  font-size: 20px;
+  margin-top: 10px;
+}
+/*  */
+.d-nave-icon {
+  width: 200px;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  /* background-color: beige; */
+}
+.d-nav-icon-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+  /* background-color: blanchedalmond; */
+}
+.d-nav-icon-div:hover {
+  background-color: rgb(222, 222, 222);
+}
+.ri-filter-3-line,
+.ri-window-line,
+.error {
+  position: absolute;
+  font-size: 22px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+/* 
+ */
+.suggest-data-images {
+  width: 100%;
+  height: 230px;
+  margin-top: 20px;
+  display: flex;
+}
+.suggest-images {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: grid;
+  justify-content: center;
+  background-color:#F7F9FC;
+  cursor: pointer;
+}
+.suggest-images:hover{
+    background-color: rgb(237, 237, 237);
+}
+.img-n-m {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.img-icon {
+  width: 30px;
+  height: 30px;
+}
+.image-show {
+  width: 300px;
+  height: 130px;
+  border-radius: 5px;
+  margin-top: -10px;
+  overflow: hidden;
+  /* background-color: azure; */
+}
+.images-uploade-show {
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+/* deta-list */
+.deta-list {
+  width: 100%;
+  height: 350px;
+}
+.data-list-name {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+.name {
+  width: 80px;
+  height: 20px;
+  display: flex;
+  margin-left: 30px;
+  gap: 5px;
+}
+.ri-arrow-down-line {
+  margin-top: 5px;
+}
+.last-m {
+  width: 130px;
+  height: 20px;
+  display: flex;
+  margin-left: 150px;
+  gap: 5px;
+}
+.m-arroe {
+  margin-top: 2px;
+}
+.owner-p {
+  margin-left: 300px;
+}
+.owner-f {
+  margin-left: 100px;
+}
+/*  data-list-items*/
+.data-list-items {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
+.data-list-items:hover{
+    background-color: rgb(233, 233, 233);
+}
+.name-file {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  gap: 5px;
+}
+.file-name-images {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+.file-name-list {
+  margin-top: 6px;
+}
+.name-Ownear {
+  width: 200px;
+  height: 40px;
+}
+.name-owner-name {
+  text-align: center;
+  margin-top: 8px;
+}
+.name-last-modify {
+  width: 250px;
+  height: 40px;
+}
+.name-modi-date {
+  text-align: center;
+  margin-top: 8px;
+}
+.name-file-size {
+  width: 150px;
+  height: 40px;
+}
+.file-size-p {
+  text-align: center;
+  margin-top: 8px;
+}

@@ -1,0 +1,116 @@
+/* ================================================================ Nav baar =============================================================== */
+
+.nav_bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  /* justify-content: space-around; */
+  /* background-color: rgb(187, 63, 63); */
+}
+.icon-name {
+  width: 250px;
+  height: auto;
+  display: flex;
+  /* margin-left: -150px; */
+  gap: 10px;
+  /* background-color: aquamarine; */
+}
+.drive-images {
+  width: 38px;
+  height: 38px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.google-drive-name {
+  font-size: 22px;
+  font-weight: 400px;
+  margin-top: 18px;
+}
+/*  */
+
+.search_baar {
+  width: 800px;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  background-color: #edf2fc;
+}
+.search-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  /* background-color: rgb(225, 225, 225); */
+  margin-top: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  /* background-color: gray; */
+}
+.search-div:hover {
+  background-color: rgb(225, 225, 225);
+}
+.fa-magnifying-glass {
+  font-size: 18px;
+  margin-top: 12px;
+  margin-left: 11px;
+}
+.google-drive-nave-input {
+  width: 670px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  outline: 0;
+}
+.filter-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 4px;
+  margin-left: 0px;
+  cursor: pointer;
+  /* background-color: rgb(225, 225, 225); */
+}
+.ri-equalizer-line {
+  position: absolute;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.filter-div:hover {
+  background-color: rgb(225, 225, 225);
+}
+/*  */
+.nav-baar-opstions {
+  width: 200px;
+  height: auto;
+  /* background-color: azure; */
+  display: flex;
+  margin-left: 300px;
+  gap: 10px;
+}
+.opstion-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  /* background-color: gray; */
+  margin-top: 14px;
+  cursor: pointer;
+}
+.opstion-div:hover {
+  background-color: rgb(225, 225, 225);
+}
+.user-images-nav {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.ri-question-line,
+.ri-settings-4-line,
+.ri-apps-2-fill {
+  position: absolute;
+  font-size: 23px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
